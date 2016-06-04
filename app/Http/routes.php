@@ -33,6 +33,7 @@ Route::get('/logout','AccountCtrl@logout');
 Route::get('/cart','CartCtrl@cart');
 Route::get('/checkout','CartCtrl@checkout');
 Route::get('/search/{query}','MainCtrl@search');
+
 Route::get('/login_setting','AuthLoginCtrl@LoginSetting');
 
 Route::get('/insert', function() {
